@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoSite", "InfoSite\InfoSite.csproj", "{4821361D-EF9D-42F3-89BC-7AA49D53E955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4821361D-EF9D-42F3-89BC-7AA49D53E955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4821361D-EF9D-42F3-89BC-7AA49D53E955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4821361D-EF9D-42F3-89BC-7AA49D53E955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4821361D-EF9D-42F3-89BC-7AA49D53E955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tf1.acg.hosting:8080/tfs/itcraft
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = InfoSite\\InfoSite.csproj
+		SccProjectName1 = InfoSite
+		SccLocalPath1 = InfoSite
+	EndGlobalSection
+EndGlobal

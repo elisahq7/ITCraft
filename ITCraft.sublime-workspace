@@ -1,0 +1,323 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backgr",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Index.html",
+			"settings":
+			{
+				"buffer_size": 5545,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 364.0,
+		"selected_items":
+		[
+		],
+		"width": 411.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/elisaseeds/Documents/TurncoatDesign.Website/Index.html",
+		"/Users/elisaseeds/Documents/TurncoatDesign.Website/Assets/Fonts/stylesheet.css",
+		"/Users/elisaseeds/Documents/TurncoatDesign.Website/Pages/Home.html",
+		"/Users/elisaseeds/Documents/TurncoatDesign.Website/Scripts/app.js",
+		"/Users/elisaseeds/Documents/TurncoatDesign.Website/TCDesign.sublime-project",
+		"/Users/elisaseeds/Desktop/wwwroot/Emails/reviewphotos-no-inline.html",
+		"/Users/elisaseeds/Documents/TurncoatDesign.Website/Assets/CSS/Site.css",
+		"/Users/elisaseeds/Desktop/wwwroot/Pages/feedback.html",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/TCDesignWebsite",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/TCDesign.sublime-workspace",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/Assets/CSS/Site.css",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/Scripts/app.js",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/Scripts/Icon",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/Pages/Home.html",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/Icon",
+		"/Users/elisaseeds/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/elisaseeds/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/elisaseeds/Google Drive/Turncoat Design/TurncoatDesign Website/TurncoatDesign.Website/TCDesign.sublime-project",
+		"/Volumes/Emails/Emails/TEMPLATE/ConsumerApp/SOLARCITY/ApprovalContent.html",
+		"/Volumes/Emails/Emails/TEMPLATE/ConsumerApp/SOLARCITY/ApprovalContentWithCoApp.html",
+		"/Volumes/Emails/Emails/TEMPLATE/ConsumerApp/SOLARCITY/Approved.html",
+		"/Volumes/IIS Sites/DynamicForms_Sites/REST/Content/DynamicFormHtmlCSS.min.css",
+		"/Volumes/C/Users/eseeds/AppData/Local/Temp/Index.cshtml-rev498.svn000.tmp.cshtml",
+		"/Users/elisaseeds/Desktop/ACGEmail.html",
+		"/Volumes/Emails-1/Emails/BODY/ConsumerApp/SOLIGENT/SoligentInstaller.html",
+		"/Volumes/Emails-1/Emails/BODY/ConsumerApp/EUTECTICS/EutecticsInstaller.html",
+		"/Volumes/Emails-1/Emails/BODY/ConsumerApp/DEFAULT/ApprInstaller.html",
+		"/Volumes/Emails-1/Emails/BODY/ConsumerApp/CENTROSOLAR/CentroSolarInstaller.html",
+		"/Volumes/Emails/Emails/BODY/Welcome/SOLIGENTWelcome.html",
+		"/Volumes/Emails/Emails/BODY/Welcome/EEWelcome.html",
+		"/Volumes/Emails/Emails/BODY/Welcome/MITSUBISHIWelcome.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/Welcome/welcome.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/Prescreen/Approve.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/Prescreen/Submit.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ContractorNotices/Consumer Credit Expiration Notice Doc Ref #11.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ContractorNotices/Contractor 15 Day Final Completion Notice Email Doc Ref  #2.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ContractorNotices/Contractor 10 Day Credit Notice Email Doc Ref #1.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ContractorNotices/Consumer RIC Cancel Email Doc Ref #12.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/SOLIGENT/Approved.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/SOLIGENT/ApprovedInstaller.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/SOLAR/Approved.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/SOLAR/ApprovedInstaller.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/DYNFORM/ApprovedWithCo.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/DYNFORM/Approved.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/DYNFORM/ApprovedInstaller.html",
+		"/Volumes/C/Development/Spruce Dev/Others/Email Files/TEMPLATE/ConsumerApp/DYNFORM/ApprovedRIC.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/Approved.html",
+		"/Volumes/c$/inetpub/wwwroot/ESignatureThankYou/index.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/ApproveDL.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/ApproveInstaller.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/ApprovedRIC.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/ApprovedRICw:CoApp",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/DynFormApproved",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/RemindToComplete",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/ResetPassword.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/StartApp.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/StipFailure.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/Welcome.html",
+		"/Users/elisaseeds/Dropbox/Viewtech/Emails/Spruce Email Ink Templates/ApproveW:CoApp.html",
+		"/Users/elisaseeds/Desktop/Emails/SpruceBrandedInkFoundations.css",
+		"/Users/elisaseeds/Desktop/New Email/Not-Inlined",
+		"/Users/elisaseeds/Desktop/Emails/TEMPLATE/ConsumerApp/CPF/Approved.html",
+		"/Users/elisaseeds/Desktop/Emails/Button Template before Inlined",
+		"/Users/elisaseeds/Desktop/Emails/TEMPLATE/ConsumerApp/CPF/ApprovedInstaller.html",
+		"/Users/elisaseeds/Desktop/Emails/Button Template",
+		"/Volumes/Emails/Emails/BODY/ConsumerApp/SOLIGENT/Soligent.html",
+		"/Volumes/Emails/Emails/BODY/ConsumerApp/SOLIGENT/SoligentInstaller.html",
+		"/Volumes/Emails/Emails/BODY/ConsumerApp/EUTECTICS/EutecticsInstaller.html",
+		"/Volumes/Emails/Emails/BODY/ConsumerApp/DEFAULT/ApprInstaller.html",
+		"/Volumes/Emails/Emails/BODY/ConsumerApp/CENTROSOLAR/CentroSolar.html",
+		"/Volumes/Emails/Emails/BODY/ConsumerApp/CENTROSOLAR/CentroSolarInstaller.html",
+		"/Volumes/Emails/Emails/BODY/DEFAULT.html",
+		"/Volumes/Emails/Emails/BODY/FND/FNDFDA.html",
+		"/Volumes/Emails/Emails/BODY/FND/FNDSOLAR.html",
+		"/Volumes/Emails/Emails/BODY/Welcome/CENTROSOLARWelcome.html",
+		"/Volumes/Emails/Emails/BODY/Welcome/DEFAULTWelcome.html",
+		"/Volumes/Emails/Emails/BODY/Welcome/ASTRUMWelcome.html",
+		"/Volumes/Emails/Emails/TEMPLATE/Prescreen/Submit.html",
+		"/Volumes/Emails/Emails/TEMPLATE/Prescreen/Send.html",
+		"/Volumes/Emails/Emails/TEMPLATE/Prescreen/Receive.html",
+		"/Volumes/Emails/Emails/TEMPLATE/Prescreen/Approve.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails with Email_Configs/Welcome/ASTRUMWelcome.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails with Email_Configs/Welcome/SOLIGENTWelcome.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails with Email_Configs/Welcome/MITSUBISHIWelcome.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails with Email_Configs/Welcome/EEWelcome.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails with Email_Configs/Welcome/DEFAULTWelcome.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails with Email_Configs/Welcome/CENTROSOLARWelcome.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/Emails New/BODY/Prescreen/Approve.html",
+		"/Users/elisaseeds/Desktop/New Email/FND/FNDFDA.html",
+		"/Users/elisaseeds/Desktop/Emails/BODY/FND/FNDSOLAR.html",
+		"/Users/elisaseeds/Desktop/New Email/FND/FNDSOLAR.html",
+		"/Users/elisaseeds/Desktop/Emails/BODY/FND/FNDFDA.html",
+		"/Users/elisaseeds/Desktop/Emails/BODY/FND/FNDEE.html",
+		"/Users/elisaseeds/Desktop/New Email/FND/FNDEE.html",
+		"/Users/elisaseeds/Desktop/Emails/BODY/Welcome/CENTROSOLARWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/BODY/Welcome/CENTROSOLARWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/BODY/Welcome/DEFAULTWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/BODY/Welcome/EEWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/BODY/Welcome/MITSUBISHIWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/BODY/Welcome/SOLIGENTWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/BODY/Welcome/ASTRUMWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/Body/Welcome/EEWelcome.html",
+		"/Users/elisaseeds/Desktop/Emails/BODY/Welcome/ASTRUMWelcome.html",
+		"/Users/elisaseeds/Desktop/New Email/Body/Welcome/ASTRUMWelcome.html",
+		"/Users/elisaseeds/Desktop/Emails/BODY/Prescreen/Approve.html",
+		"/Users/elisaseeds/Desktop/New Email/Body/Prescreen/Approve.html",
+		"/Users/elisaseeds/Desktop/New Email/ink.css",
+		"/Users/elisaseeds/Desktop/New Email/DEFAULT.html",
+		"/Users/elisaseeds/Google Drive/Spruce Emails/EMAILS (1)/contactor_template.html",
+		"/Users/elisaseeds/Desktop/Appr.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"access",
+			"appr-",
+			"s-sol-appr-i",
+			"modulecon",
+			"p {",
+			"h2",
+			"p {",
+			"h1",
+			"a {",
+			"[[",
+			"approve with",
+			"h6",
+			"table.button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.tiny-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.small-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.medium-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.large-button:hover td {\n            background: #99ba3e !important;\nHelvetic",
+			"table.button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.tiny-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.small-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.medium-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.large-button:hover td {\n            background: #99ba3e !important;\n.button.",
+			"table.button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.tiny-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.small-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.medium-button:hover td {\n            background: #99ba3e !important;\n        }\n\n        table.large-button:hover td {\n            background: #99ba3e !important;\n        }",
+			"ul>",
+			"www",
+			"img",
+			"www",
+			"(e)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Index.html",
+					"settings":
+					{
+						"buffer_size": 5545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true
+}

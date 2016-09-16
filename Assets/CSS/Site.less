@@ -1,0 +1,298 @@
+﻿
+
+@font: 'Source Sans Pro', sans-serif;
+@fontColor: @baselight;
+
+@base: #253b4f;
+@secondary: #6baabd;
+@accent: #fbb040;
+@baselight: #325168;
+
+@grey1: #e5e9ea;
+@grey2: #b9c5c9;
+
+@error: #a94442;
+
+//MIXIN
+
+@btntext: white;
+.button(@color) {
+    background: @color;
+    border-color: @color;
+    color: @btntext !important;
+    font-size: 1.2em;
+    text-transform: none;
+   .border-radius(18px);
+    &:hover, &:active, &:focus, &.active, &.active:hover {
+        background: darken(@color, 10%) !important;
+        border-color: darken(@color, 10%) !important;
+        color: @btntext !important;
+    }
+    &:disabled, &[disabled] {
+        .cursor(not-allowed);
+        background: lighten(@color, 10%);
+        border-color: lighten(@color, 10%);
+        &:hover {
+            background: lighten(@color, 10%) !important;
+            border-color: lighten(@color, 10%) !important;
+            color: @btntext !important;
+        }
+    }
+}
+
+ .linkText(@color) {
+    color: @color;
+        &:hover {
+        color: darken(@color, 10%);
+    }
+}
+
+.cursor(@cursor) {
+    cursor: @cursor;
+	cursor: -webkit-@cursor; 
+	cursor: -moz-@cursor;
+	cursor: -o-@cursor
+}
+.border-radius (@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+}
+.darktext (@a) when (lightness(@a) >= 50%) {
+  color: black !important;
+}
+.lighttext (@a) when (lightness(@a) < 50%) {
+  color: white !important;
+}
+
+.gradient (@startColor: #eee, @endColor: white) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(top, @startColor, @endColor);
+	background: -moz-linear-gradient(top, @startColor, @endColor);
+	background: -ms-linear-gradient(top, @startColor, @endColor);
+	background: -o-linear-gradient(top, @startColor, @endColor);
+}
+
+.listStyle() {
+    ul {
+        border-right: 2px solid white;
+        .list-group-item {
+            border: none;
+            color: @base;
+            border-bottom: 1px solid @grey1;
+            margin-bottom: 0;
+            .border-radius(0);
+            h4 {
+                margin:0;
+                .material-icons {
+                    top: 6px;
+                    margin-top: -7px;
+                }
+                i:not(.fa-chevron-right) {
+                    color: @accent;
+                }
+            }
+            &:hover {
+                background: @grey1;
+                color: @accent;
+                i.fa {
+                    display: inline-block;
+                }
+            }
+            &.active {
+                color: @accent;
+                font-weight: 600;
+                background: @grey1;
+                i.fa {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
+//---------------Website Styles---------------
+
+    body {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        font-family: @font;
+        color: @fontColor;
+    }
+
+    .navbar.navbar-default {
+        background: white;
+        .border-radius(0);
+        margin-bottom: 0px;
+        padding: 3px;
+        height: 60px;
+        text-align: center;
+        z-index: 1;
+        img {
+            margin-top: 3px;
+        }
+    }
+
+    a,  a:not(.md-button) {
+        .linkText(@accent)
+    }
+    
+    .text-danger {
+        color: @accent;
+    }
+    .text-info {
+        color: @secondary;
+    }
+    .text-muted {
+        color: @grey2;
+    }
+    .b {
+        font-weight: 600 !important;
+    }
+
+    h1 {
+        color: @base;
+        font-size: 1.5em;
+        border-bottom: 1px solid @grey2;
+        padding: 5px 10px;
+        margin: 0 -15px 10px;
+        line-height: 27px;
+        height: 40px;
+      
+    }
+
+    #techs {
+          margin-top: 25px;
+         .img-circle {
+            height: 160px;
+            width: 160px;
+            background-size: contain;
+            border: 1px solid @grey1;
+            float: left;
+            &#matt {
+                
+                background-image: url("../Images/Matt.png");
+                &:hover {
+                    background-image: url("../Images/Matt2.png");
+                }
+            }
+            &#sam {
+                background-image: url("../Images/Sam1.png");
+                &:hover {
+                    background-image: url("../Images/Sam2.png");
+                }
+            }
+            &#tristan {
+                background-image: url("//www.xing.com/assets/frontend_minified/img/users/nobody_m.1024x1024.jpg");
+                &:hover {
+                    background-image: url("../Images/tristan2.png");
+                }
+                
+            }
+            &#max {
+                background-image: url("../Images/Max.png");
+                &:hover {
+                    background-image: url("../Images/Max2.png");
+                }
+            }
+        }
+       
+        blockquote {
+            float: left;
+            margin: 15px 15px;
+            h3 {
+                margin-top: 0;
+                color: @accent;
+            }
+        }
+      
+    }
+
+#loginPage {
+
+    .jumbotron {
+        background-image: url("//images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7bd13db3b64ce66833f51169e9e6e5e5");
+        background-size: cover;
+        height: 50vh;
+        background-position: bottom;
+        padding-top: 16vh;
+    }
+    .navbar-inverse {
+        height: 60px;
+        a {    font-size: 16px;}
+        .navbar-brand {
+            padding: 5px;
+        }
+    }
+
+    .imgText {
+        font-size: 6em;
+        color: white;
+        img {
+            width: 100%;
+        }
+        p {
+
+            font-size: 35%;
+            font-weight: 100;
+        }
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: 25px 0 0;
+    }
+
+    h3 {
+        i {
+            color: @accent;
+        }
+        .material-icons {
+            top: 8px;
+            margin-top: -10px;
+        }
+    }
+
+    #downloadAppCol {
+        img {
+            width: 30%;
+            margin-top: 25px;
+        }
+    }
+    .footer {
+        background: @base;
+        color: white;
+        padding: 25px 0;
+        margin-top: 25px;
+        #socialMedia {
+            text-align: right;
+            padding-top: 25px;
+            a {
+                color: white;
+                &:hover {
+                     text-decoration: none;
+                     color: white;
+                }
+                .fa {
+                    opacity: 0.3;
+                    font-size: 2.7em;
+                    display: inline;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    @media (max-width: 48em) {
+        
+        .jumbotron {
+            padding-top: 10vh;
+            .imgText {
+                font-size: 5em;
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,212 @@
+﻿body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #325168;
+}
+.navbar.navbar-default {
+  background: white;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 0px;
+  padding: 3px;
+  height: 60px;
+  text-align: center;
+  z-index: 1;
+}
+.navbar.navbar-default img {
+  margin-top: 3px;
+}
+a,
+a:not(.md-button) {
+  color: #fbb040;
+}
+a:hover,
+a:not(.md-button):hover {
+  color: #fa9b0e;
+}
+.text-danger {
+  color: #fbb040;
+}
+.text-info {
+  color: #6baabd;
+}
+.text-muted {
+  color: #b9c5c9;
+}
+.b {
+  font-weight: 600 !important;
+}
+h1 {
+  color: #253b4f;
+  font-size: 1.5em;
+  border-bottom: 1px solid #b9c5c9;
+  padding: 5px 10px;
+  margin: 0 -15px 10px;
+  line-height: 27px;
+  height: 40px;
+}
+
+ .btn-primary {
+    background: #253b4f;
+    border-color: #253b4f;
+    color: white !important;
+    text-transform: none;
+    border-radius: 0;
+  }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary.active, .btn-primary.active:hover {
+    background: #1c2d3a !important;
+    border-color: #1c2d3a !important;
+    color: white !important;
+    
+  }
+  .btn-primary:disabled:hover {
+      background: #1c2d3a !important;
+      border-color: #1c2d3a !important;
+      color: white !important;
+  }
+
+   .btn-warning {
+    background: #fbb040;
+    border-color: #fbb040;
+    color: white !important;
+    text-transform: none;
+    border-radius: 0;
+  }
+  .btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning.active, .btn-warning.active:hover {
+    background: #ea9e39 !important;
+    border-color: #ea9e39 !important;
+    color: white !important;
+    
+  }
+  .btn-warning:disabled:hover {
+      background: #ea9e39 !important;
+      border-color: #ea9e39 !important;
+      color: white !important;
+  }
+
+#techs {
+  margin-top: 25px;
+}
+#techs .img-circle {
+  height: 160px;
+  width: 160px;
+  background-size: contain;
+  border: 1px solid #e5e9ea;
+  float: left;
+}
+#techs .img-circle#matt {
+  background-image: url("../../Images/Matt.png");
+}
+#techs .img-circle#matt:hover {
+  background-image: url("../../Images/Matt2.png");
+}
+#techs .img-circle#sam {
+  background-image: url("../Images/Sam1.png");
+}
+#techs .img-circle#sam:hover {
+  background-image: url("../Images/Sam2.png");
+}
+#techs .img-circle#tristan {
+  background-image: url("//www.xing.com/assets/frontend_minified/img/users/nobody_m.1024x1024.jpg");
+}
+#techs .img-circle#tristan:hover {
+  background-image: url("../Images/tristan2.png");
+}
+#techs .img-circle#max {
+  background-image: url("../Images/Max.png");
+}
+#techs .img-circle#max:hover {
+  background-image: url("../Images/Max2.png");
+}
+#techs blockquote {
+  float: left;
+  margin: 15px 15px;
+}
+#techs blockquote h3 {
+  margin-top: 0;
+  color: #fbb040;
+}
+#loginPage .jumbotron {
+  background-image: url("http://media.istockphoto.com/photos/business-team-busy-working-talking-concept-picture-id518778710?s=2048x2048");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding-top: 16vh;
+}
+#loginPage .navbar-inverse {
+  height: 60px;
+}
+#loginPage .navbar-inverse a {
+  font-size: 16px;
+}
+#loginPage .navbar-inverse .navbar-brand {
+  padding: 5px;
+}
+#loginPage .imgText {
+  font-size: 6em;
+  color: #253b4f;
+  display: inline-block;
+  background: rgba(266,266,266,0.8);
+  padding: 0 50px 20px 50px;
+}
+#loginPage .imgText h3 {
+  margin-top: 0;
+  font-size: 0.4em;
+  border-top: 1px solid white;
+}
+#loginPage .imgText img {
+  width: 100%;
+}
+#loginPage .imgText p {
+  font-size: 35%;
+  font-weight: 100;
+}
+#loginPage h1 {
+  font-size: 2em;
+  margin: 25px 0 0;
+}
+#loginPage h3 i {
+  color: #fbb040;
+}
+#loginPage h3 .material-icons {
+  top: 8px;
+  margin-top: -10px;
+}
+#loginPage #downloadAppCol img {
+  width: 30%;
+  margin-top: 25px;
+}
+#loginPage .footer {
+  background: #253b4f;
+  color: white;
+  padding: 25px 0;
+  margin-top: 25px;
+}
+#loginPage .footer #socialMedia {
+  text-align: right;
+  padding-top: 25px;
+}
+#loginPage .footer #socialMedia a {
+  color: white;
+}
+#loginPage .footer #socialMedia a:hover {
+  text-decoration: none;
+  color: white;
+}
+#loginPage .footer #socialMedia a .fa {
+  opacity: 0.3;
+  font-size: 2.7em;
+  display: inline;
+  margin-left: 10px;
+}
+@media (max-width: 48em) {
+  #loginPage .jumbotron {
+    padding-top: 10vh;
+  }
+  #loginPage .jumbotron .imgText {
+    font-size: 5em;
+  }
+}
