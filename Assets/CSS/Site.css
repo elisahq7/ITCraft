@@ -147,6 +147,18 @@ h2 {
 #techs .img-circle#matt:hover {
   background-image: url("../Images/Matt2.png");
 }
+#techs .img-circle#mattF {
+  background-image: url("../Images/MattFager.jpg");
+}
+#techs .img-circle#mattF:hover {
+  background-image: url("../Images/MattFager.jpg");
+}
+#techs .img-circle#zach {
+  background-image: url("../Images/ZachHart.jpg");
+}
+#techs .img-circle#zach:hover {
+  background-image: url("../Images/ZachHart.jpg");
+}
 #techs .img-circle.noPic {
   background-image: url("../Images/nobody.jpg");
 }
@@ -171,7 +183,7 @@ h2 {
   background-size: cover;
 }
 .splash {
-  background-image: url("//i.imgur.com/1QTIoZ2.jpg");
+  background-image: url("../Images/HomeBg.jpg");
   height: 92vh;
   padding-top: 11vh;
   margin-bottom: 0;
