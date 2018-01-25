@@ -135,8 +135,8 @@ h2 {
   margin-top: 25px;
 }
 #techs .img-circle {
-  height: 160px;
-  width: 160px;
+  height: 140px;
+  width: 140px;
   background-size: contain;
   border: 1px solid #e5e9ea;
   float: left;
@@ -185,7 +185,7 @@ h2 {
 .splash {
   background-image: url("../Images/HomeBg.jpg");
   height: 92vh;
-  padding-top: 11vh;
+  padding-top: 8vh;
   margin-bottom: 0;
   background-position: center;
 }
@@ -254,10 +254,12 @@ h2 {
   color: #253b4f;
   display: inline-block;
   background: rgba(266,266,266,0.9);
-  padding: 30px 50px;
+  padding: 30px;
+  text-align: center;
+  max-width: 600px;
 }
 .imgText h3 {
-  font-size: 0.4em;
+  font-size: 0.32em;
   border-top: 1px solid white;
   padding-top: 14px;
   font-weight: 200;
@@ -265,7 +267,6 @@ h2 {
 .imgText img {
   width: 100%;
   max-width: 400px;
-  display: block;
   margin: 0 auto 0 -15px;
 }
 .imgText p {
