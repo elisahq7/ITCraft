@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-position"
+			],
+			[
 				"font",
 				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
 			],
 			[
 				"inlin",
@@ -20,16 +32,8 @@
 				"border-radius"
 			],
 			[
-				"back",
-				"background-attachment"
-			],
-			[
 				"ba",
 				"background-position"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"backgr",
@@ -40,42 +44,19 @@
 	"buffers":
 	[
 		{
-			"file": "Index.html",
+			"contents": "var output = {};\n\n\nfor(i=0;i<input.length;i++)\n{\n	var charToSearch = input.charAt(i);\n\n	//Check if  charToSearch is already found in output if yes break the loop\n	---\n	//else\n	var count = 0;\n\n	for(j=0;j<input.length;j++)\n	{ \n		if(charToSearch==input.charAt(i)) {\n	 		count++;\n	 	}\n	}\n\n	 output.Push({charToSearch:count});\n	}\n}",
 			"settings":
 			{
-				"buffer_size": 6512,
-				"line_ending": "Unix"
+				"buffer_size": 326,
+				"line_ending": "Unix",
+				"name": "var output = {};"
 			}
 		},
 		{
-			"file": "Assets/CSS/Site.css",
+			"file": "Views/home.html",
 			"settings":
 			{
-				"buffer_size": 9481,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Views/Home.html",
-			"settings":
-			{
-				"buffer_size": 572,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 3020,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Assets/CSS/Site.less",
-			"settings":
-			{
-				"buffer_size": 6863,
+				"buffer_size": 673,
 				"line_ending": "Windows"
 			}
 		},
@@ -83,15 +64,7 @@
 			"file": "Views/contact.html",
 			"settings":
 			{
-				"buffer_size": 3746,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Views/services.html",
-			"settings":
-			{
-				"buffer_size": 5816,
+				"buffer_size": 5408,
 				"line_ending": "Windows"
 			}
 		},
@@ -99,7 +72,7 @@
 			"file": "Views/about.html",
 			"settings":
 			{
-				"buffer_size": 2678,
+				"buffer_size": 2372,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,8 +80,64 @@
 			"file": "Views/support.html",
 			"settings":
 			{
-				"buffer_size": 5462,
+				"buffer_size": 5360,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Views/calculator.html",
+			"settings":
+			{
+				"buffer_size": 2734,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Index.html",
+			"settings":
+			{
+				"buffer_size": 6740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/CSS/Site.css",
+			"settings":
+			{
+				"buffer_size": 13085,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Views/services.html",
+			"settings":
+			{
+				"buffer_size": 8123,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 3040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Demos.sublime-project",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Index.html",
+			"settings":
+			{
+				"buffer_size": 6740,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -148,6 +177,15 @@
 	},
 	"file_history":
 	[
+		"/Users/elisaseeds/Documents/TailoredTech/Scripts/app.js",
+		"/Users/elisaseeds/Documents/TailoredTech/Views/services.html",
+		"/Users/elisaseeds/Documents/TailoredTech/Assets/CSS/Site.css",
+		"/Users/elisaseeds/Documents/TailoredTech/Index.html",
+		"/Users/elisaseeds/Documents/TailoredTech/Views/Home.html",
+		"/Users/elisaseeds/Documents/TailoredTech/Assets/CSS/Site.less",
+		"/Users/elisaseeds/Documents/TailoredTech/Views/contact.html",
+		"/Users/elisaseeds/Documents/TailoredTech/Views/about.html",
+		"/Users/elisaseeds/Documents/TailoredTech/Views/support.html"
 	],
 	"find":
 	{
@@ -165,6 +203,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".navbar.navbar-default",
+			"#servicesPage .banner",
+			"h1 {",
+			"service2",
+			"circleicon",
+			"service2",
+			".circleIcon",
+			".iconPanelCont p",
+			"iconpanelcont p",
+			"iconpanel",
+			"circle",
+			"services",
+			"banner h2",
+			"calc(",
+			"circleIcon",
+			"angleIcon",
+			"noMrgBo",
+			"nMrgBo",
+			"nMrg",
+			"lrgIcon",
+			"panel-body h3",
+			"h2",
+			"Comprehensive Tailored Support Plans",
+			"dashed",
+			"#fbb040",
+			"about",
+			"hover",
+			"img-c",
+			"git",
+			"services",
+			"angle",
+			"servicesPanel",
+			".support",
 			"noBtmMrg",
 			"h2",
 			"noM",
@@ -193,11 +264,12 @@
 			"(e)"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"#fec340"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -212,74 +284,45 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Index.html",
 					"settings":
 					{
-						"buffer_size": 6512,
+						"buffer_size": 326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								187,
+								187
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "var output = {};",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 353.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Assets/CSS/Site.css",
+					"file": "Views/home.html",
 					"settings":
 					{
-						"buffer_size": 9481,
+						"buffer_size": 673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 685.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Views/Home.html",
-					"settings":
-					{
-						"buffer_size": 572,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								437,
+								437
 							]
 						],
 						"settings":
@@ -295,52 +338,80 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "Scripts/app.js",
+					"buffer": 2,
+					"file": "Views/contact.html",
 					"settings":
 					{
-						"buffer_size": 3020,
+						"buffer_size": 5408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4610,
+								4610
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 490.0,
+						"translation.y": 1070.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Views/about.html",
+					"settings":
+					{
+						"buffer_size": 2372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "Assets/CSS/Site.less",
+					"file": "Views/support.html",
 					"settings":
 					{
-						"buffer_size": 6863,
+						"buffer_size": 5360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4603,
+								4609
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -352,24 +423,24 @@
 				},
 				{
 					"buffer": 5,
-					"file": "Views/contact.html",
+					"file": "Views/calculator.html",
 					"settings":
 					{
-						"buffer_size": 3746,
+						"buffer_size": 2734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								49,
+								49
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -380,18 +451,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "Views/services.html",
+					"file": "Index.html",
 					"settings":
 					{
-						"buffer_size": 5816,
+						"buffer_size": 6740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5441,
+								5441
 							]
 						],
 						"settings":
@@ -401,17 +472,100 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1451.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "Views/about.html",
+					"file": "Assets/CSS/Site.css",
 					"settings":
 					{
-						"buffer_size": 2678,
+						"buffer_size": 13085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9047,
+								9054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7475.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Views/services.html",
+					"settings":
+					{
+						"buffer_size": 8123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4139,
+								4139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1265.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 3040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								1065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 295.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Demos.sublime-project",
+					"settings":
+					{
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -424,9 +578,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -435,11 +587,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "Views/support.html",
+					"buffer": 11,
+					"file": "Index.html",
 					"settings":
 					{
-						"buffer_size": 5462,
+						"buffer_size": 6740,
 						"regions":
 						{
 						},
@@ -498,7 +650,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -521,6 +673,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 248.0,
+	"side_bar_width": 315.0,
 	"status_bar_visible": true
 }

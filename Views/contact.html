@@ -1,32 +1,41 @@
 ﻿
-<div class="banner texture">
+<div class="banner geoBlue" id="contact">
     <div class="container">
-         <div class="row" style="position: relative">
-            <div class="col-sm-6 col-md-8">
-                <h1 id="about">Contact Us</h1>
-                 <h4>Please send us an email with any questions you may have via the link below or form to the right. We will respond as soon as possible. Thank you!</h4>
                 <div class="row" style="position: relative">
-                    <div class="col-sm-2 col-xs-3">
-                        <i class="fa fa-building-o lrgIcon"></i>
+                    <div class="col-sm-2 hidden-xs">
+                        <i class="far fa-building lrgIcon"></i>
                     </div>
-                    <div class="col-sm-10 col-xs-9">
+                    <div class="col-sm-10">
                         <address>
-                            <h2 class="noMrgBtm"><span class="logoFont">Tailored Technology Services Inc.</span></h2><br>
-                            640 N. Tustin Ave Suite 210<br>
-                            Santa Ana, CA 92705<br>
-                            <hr>
-                            phone: <a href="tel+:9493424322">(949) 342-4322</a><br>
-                            text: <a href="tel+:9495583222">(949) 558-3222</a><br>
-                            fax: <a href="tel+:9496824054">(949) 682-4054</a><br>
-                            email: <a href="mailto:support@tailoredtech.net">Support@tailoredtech.net</a>
+                            <h2 class="noMrg"><span class="logoFont">Tailored Technology Services Inc.</span></h2>
+                            <i class="fas fa-phone fa-fw"></i>&nbsp;phone: <a href="tel+:9493424322">(949) 342-4322</a><br>
+                            <i class="far fa-comment-alt fa-fw"></i>&nbsp;text: <a href="tel+:9495583222">(949) 558-3222</a><br>
+                            <i class="fas fa-fax fa-fw"></i>&nbsp;fax: <a href="tel+:9496824054">(949) 682-4054</a><br>
+                            <i class="far fa-envelope fa-fw"></i>&nbsp;email: <a href="mailto:support@tailoredtech.net">Support@tailoredtech.net</a>
                         </address>
-
                     </div>
+        </div>
+    </div>
+</div>
+<div class="spacer"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+           <!--  <div class="row">
+                <div class="col-sm-1">
+                    <i class="fas fa-map-marker-alt" id="addressMrkr"></i>
                 </div>
-                <div class="line"></div>
-               
-            </div>
-            <div class="col-sm-6 col-md-4" id="contactForm">
+                <div class="col-sm-11 h4" id="address">
+                     640 N. Tustin Ave Suite 210<br>
+                        Santa Ana, CA 92705
+                </div>
+            </div> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.3831081761277!2d-117.83681038479295!3d33.75076468068909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd97c4e2ac4cf%3A0x384700c6638994fa!2s640+N+Tustin+Ave+%23210%2C+Santa+Ana%2C+CA+92705!5e0!3m2!1sen!2sus!4v1517596277537" width="300" height="500" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-4" id="contactForm">
+                <h2 class="noMrgTop">Contact Us</h2>
+                <h4>Please send us an email with any questions you may have via the <a href="mailto:support@tailoredtech.net">this</a> link or this form. We will respond as soon as possible. Thank you!</h4>
+                <hr>
                 <form name="contactForm">
                     <div class="form-group">
                         <label>Name</label>
@@ -59,15 +68,25 @@
                         <small ng-show="contactForm.Message.$invalid && invalid">A message is required</small>
                     </div>
                     <div class="form-group">
-                        <button type="button" ng-click="submitEmail()" class="btn btn-primary center-block"><i class="fa fa-send"></i>&nbsp;Send</button>
+                        <button type="button" ng-click="submitEmail()" class="btn btn-primary center-block"><i class="fab fa-telegram-plane"></i>&nbsp;Send</button>
                     </div>
                 </form>
             </div>
+               <!--  <hr>
+                <div class="row" style="position: relative">
+                    <div class="col-sm-2 col-xs-3">
+                        <i class="fa fa-calculator lrgIcon" style="font-size: 80px !important"></i>
+                    </div>
+                    <div class="col-sm-10 col-xs-9">
+                        <h2 class="logoFont">
+                            Pricing Calculator 
+                        </h2>
+                        <a href="#/calculator" class="btn btn-primary">See Pricing <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div> -->
+              
+            </div>
+           
         </div>
-    </div>
- </div>
-<div class="container">
-    <div class="row">
-     
     </div>
  </div>

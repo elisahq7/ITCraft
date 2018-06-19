@@ -24,7 +24,7 @@
   padding: 3px;
   height: 60px;
   text-align: center;
-  z-index: 1;
+  z-index: 2;
 }
 .navbar.navbar-default .btn {
   padding: 6px 12px !important;
@@ -36,14 +36,14 @@
 
 a,
 a:not(.md-button) {
-  color: #fbb040;
+  color: #fec340;
 }
 a:hover,
 a:not(.md-button):hover {
   color: #fa9b0e;
 }
 .text-danger {
-  color: #fbb040 !important;
+  color: #fec340 !important;
 }
 .text-default {
   color: #253b4f !important;
@@ -59,7 +59,7 @@ a:not(.md-button):hover {
 }
 h1 {
   font-family: 'Rajdhani', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   color: #253b4f;
   border-bottom: 1px solid #b9c5c9;
   padding: 5px 0;
@@ -67,6 +67,7 @@ h1 {
 }
 h2 {
   font-size: 35px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .btn {
@@ -75,13 +76,13 @@ h2 {
 }
  .btn-primary {
     background: transparent;
-    border: 3px solid white;
-    color: white !important;
+    border: 3px solid #253b4f;
+    color: #253b4f !important;
   }
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary.active, .btn-primary.active:hover {
-    background: white !important;
-    border-color: white !important;
-    color: #6A7076 !important;
+    background: #253b4f !important;
+    border-color: #253b4f !important;
+    color: white !important;
     
   }
   .btn-primary:disabled:hover {
@@ -89,11 +90,27 @@ h2 {
       border-color: #1c2d3a !important;
       color: white !important;
   }
+   .btn-default {
+    background: transparent;
+    border: 3px solid white;
+    color: white !important;
+  }
+  .btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default.active, .btn-default.active:hover {
+    background: white !important;
+    border-color: white !important;
+    color: gray !important;
+    
+  }
+  .btn-default:disabled:hover {
+      background: #1c2d3a !important;
+      border-color: #1c2d3a !important;
+      color: white !important;
+  }
 
    .btn-warning {
     background: transparent;
-    border: 3px solid #fbb040;
-    color: #fbb040 !important;
+    border: 3px solid #fec340;
+    color: #fec340 !important;
     text-transform: none;
     border-radius: 0;
   }
@@ -126,7 +143,13 @@ h2 {
   }
 .noMrgBtm {
   margin-bottom: 0 !important;
-  display: inline-block;;
+  display: inline-block;
+}
+.noMrg {
+  margin: 0 !important;
+}
+.noMrgTop {
+  margin-top: 0 !important;
 }
 .form-control {
   border-radius: 0;
@@ -171,10 +194,31 @@ h2 {
 }
 #techs blockquote h3 {
   margin-top: 0;
-  color: #fbb040;
+  color: #fec340;
 }
 #techs .col-sm-6 {
   margin-bottom: 15px;
+}
+.quote {
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+  font-style: italic;
+}
+.quote footer {
+  color: gray;
+  font-size: 21px;
+  margin-top: 10px;
+}
+.stripedLine {
+  width: 100%;
+  height: 10px;
+  background: repeating-linear-gradient(     
+    45deg,     
+    gainsboro 4px,     
+    gainsboro 5px,     
+    transparent 0px,     
+    transparent 9px)
 }
 .jumbotron p {
   font-weight: 400;
@@ -218,7 +262,14 @@ h2 {
     z-index: 0;
 }
 .geo2 {
-  background: url(//i.imgur.com/dTkAeBa.png) center center no-repeat;
+  background: url(../Images/geoBg.png) center center no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+  background-size: cover;
+}
+.geoBlue {
+  background: url('../Images/blueGeo.png') center center no-repeat;
   background-position: center;
   color: white;
   position: relative;
@@ -276,7 +327,7 @@ h1 {
   margin: 25px 0;
 }
 h3 i {
-  color: #fbb040;
+  color: #fec340;
 }
 h3 .material-icons {
   top: 8px;
@@ -300,23 +351,75 @@ p {
 }
 .footer #socialMedia a {
   color: white;
-}
-.footer #socialMedia a:hover {
-  text-decoration: none;
-  color: white;
-}
-.footer #socialMedia a .fa {
   opacity: 0.3;
   font-size: 2.7em;
   display: inline;
   margin-left: 10px;
 }
+.footer #socialMedia a:hover {
+  text-decoration: none;
+  color: white;
+}
 #servicesPage .jumbotron {
   background-image: url("//i.imgur.com/ujFg6C9.png");
   background-size: cover;
   background-position: center;
-  height: 250px;
+  color: white;
+}
+#servicesPage .banner {
+  min-height: 200px;
+  color: #253b4f;
+}
+#servicesPage h1 {
+  border-bottom: none;
+}
+#servicesPage .banner h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#servicesPage .banner.service1 {
+  background-image: url("../Images/ServiceBanner1.png");
+  background-size: cover;
+  background-position: center;
+}
+#servicesPage .banner.service2 {
+  background-image: url("../Images/ServiceBanner2.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#servicesPage .banner.service3 {
+  background-image: url("../Images/ServiceBanner3.png");
+  background-size: cover;
+  background-position: center;
+}
+#servicesPage .banner.service2 .circleIcon {
+  border-color: white;
+}
 
+#servicesPage .banner.blueBg {
+background-image: url("../Images/BlueBg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#servicesPage .right {
+  text-align: right;
+}
+#servicesPage .right .circleIcon {
+  margin-left: 15px;
+}
+iframe {
+  width: 100% !important;
+  min-width: 100% !important;
+  margin-top: -20px;
+}
+#calcBackLink {
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 .jumbotron {
   color: white;
@@ -328,46 +431,44 @@ p {
   margin-bottom: 10px;
 }
 .lrgIcon {
-    font-size: 90px !important;
-    margin-top: 26px;
+    font-size: 109px !important;
+    margin-top: 4px;
 }
 .spacer {
   width: 100%;
   clear: both;
   height: 45px;
 }
-.circleIcon {
-  font-size: 1.3em;
+.serviceImg {
   display: inline-block;
-  margin-right: 15px;
-  width: 70px;
-  text-align: center;
+  margin: 15px 15px 0 0px;
+  width: 55px;
   position: relative;
+  float: left;
 }
-.circleIcon:before {
-  font-family: 'FontAwesome';
-  content: "\f10c";
-  position: absolute;
-  font-size: 1.7em;
-  top: -15px;
-  left: 0;
-  right: 0;
-}
-#connectwiseForm {
-  padding-top: 35px;
-  padding-bottom: 20px;
+.serviceTxt {
+  display: inline-block;
+  width: calc(100% - 70px);
+  float: left;
 }
 #contactForm {
-  background: rgba(37,59,79, 0.5);
-  margin: -30px 0 25px 0;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-#contactForm label, #connectwiseForm label {
-  color: white;
+  background: white;
+  margin-top: -196px;
+  border: 1px solid gainsboro;
+  padding: 11px 15px;
 }
 #contactForm textarea {
   min-height: 150px;
+}
+address {
+  margin-bottom: 0;
+}
+#address {
+  margin: 0;
+  border-left: 3px solid gainsboro;
+}
+#addressMrkr {
+    font-size: 2.8em;
 }
 .panel {
   border-radius: 0;
@@ -394,8 +495,15 @@ p {
   margin-top: 6px;
   width: 110px;
 }
+#contact iframe {
+  width: 300px;
+  max-width: 100%;
+  border: 1px solid gainsboro;
+}
 .panel-body h3 {
   margin-top: 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 27px;
 }
 .angleIcon {
   width: 15%;
@@ -405,7 +513,7 @@ p {
   margin: -15px 15px -15px -15px;
   height: 100%;
   position: absolute;
-  padding: 6% 1.75%;
+  padding: 7.5% 0.75%;
   font-size: 2.5em;
 }
 .angleIcon .rightBlue {
@@ -420,7 +528,7 @@ p {
 .angleIcon .rightOrange {
   border-top: 82px solid transparent;
   border-bottom: 83px solid transparent;
-  border-left: 41px solid #FBB040;
+  border-left: 41px solid #fec340;
   position: absolute;
   top: 0;
   left: 100%;
@@ -431,20 +539,30 @@ p {
 }
 .angleIcon .fa-stack {
     z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
-.angleIcon .fa-stack-1x:hover {
+.angleIcon .fa-stack-2x {
+  height: 1.8em;
+  width: 1.8em;
+}
+/*.angleIcon .fa-stack-1x:hover {
   -webkit-transition: -webkit-transform 0.4s ease-out;
   -moz-transition: -moz-transform 0.4s ease-out;
   transition: transform 0.4s ease-out;
   -webkit-transform: rotateZ(360deg);
   -moz-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
-}
+}*/
 .servicesPanel .angleIcon.blue {
  background: #253B4F;
 }
 .servicesPanel .angleIcon.orange {
- background: #FBB040;
+ background: #fec340;
 }
 .iconPanelCont {
   margin-left: 25%;
@@ -452,17 +570,43 @@ p {
   float: left;
   width: 75%;
 }
+.iconPanelCont p { 
+  font-weight: 300;
+}
 
-@media (max-width: 48em) {
+@media (max-width: 1024px) {
+  .panel-body h3 {
+      margin: 0;
+  }
+  .angleIcon .rightBlue,
+  .angleIcon .rightOrange {
+    left: 99% !important;
+  }
+}
+
+@media (max-width: 768px) {
 
   h2 {
     font-size: 1.7em;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-collapse > .navbar-nav {
+      margin: 0 !important;
+  }
+  .navbar.navbar-default .btn {
+    margin-top: 2px;
   }
   #loginPage .jumbotron {
     padding-top: 10vh;
   }
   #loginPage .jumbotron .imgText {
     font-size: 5em;
+  }
+  .imgText h3 {
+    font-size: 21px;
   }
   .navbar #menu {
     background: white;
@@ -476,21 +620,15 @@ p {
   .navbar-collapse > .navbar-nav  {
     margin: 0 10px 15px 10px;
   }
-  .angleIcon .fa-stack-2x {
-    font-size: 1.7em;
-    top: 25%;
-    left: -10%;
-  }
-  .angleIcon .fa-stack-1x {
-    top: 18%;
+  .angleIcon .fa-stack {
     font-size: 1em;
-    left: -10%;
+    margin-left: 14%;
   }
-
   .iconPanelCont {
     margin-left: 30%;
     height: 137px;
-     overflow: auto;
+    overflow: auto;
+    padding-right: 10px;
   }
   .iconPanelCont .btn {
     position: absolute;
@@ -515,8 +653,29 @@ p {
   #techs .col-sm-6 {
     margin-bottom: 15px;
   }
-  #contactForm {
+ .iconPanelCont p {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 480px) {
+ #contactForm {
     margin-top: 25px;
     margin-bottom: 0;
+  }
+  .iconPanelCont p {
+    font-size: 13px;
+  }
+  #servicesPage .banner.service1, #servicesPage .banner.service3 {
+    background-position: left !important;
+  }
+  #servicesPage .banner.service2 {
+    background-position: right !important;
+  }
+}
+@media (min-width: 900px) {
+ address {
+    margin-left: -5vw;
   }
 }

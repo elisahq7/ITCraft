@@ -25,35 +25,26 @@ app.config(["$routeProvider",
                  templateUrl: "Views/support.html",
                  controller: "SupportCtrl"
              })
+            .when("/calculator", {
+                 templateUrl: "Views/calculator.html",
+                 controller: "CalculatorCtrl"
+             })
              .otherwise({
                 redirectTo: "/"
             });
     }
 ]);
 
+
+
 app.controller("HomeCtrl", [ "$scope", 
 	function($scope) {
-		$scope.designers = [
-            { 
-                Id: 'e1',
-                Name: 'Elisa Seeds',
-                Email: 'elisaseeds@icloud.com',
-                Position: 'Owner / Designer / Front-End Developer',
-                Url: ""
-            },{ 
-                Id: 'b2',
-                Name: 'Bethany Cech',
-                Email: 'bethanycech@gmail.com',
-                Position: 'Designer',
-                Url: '../Assets/Images/Elisa.jpg'
-            }
-        ];
+		
 	 }
 ]);
 
 app.controller("PortfolioCtrl", [ "$scope", 
     function($scope) {
-        $scope.name = "Hello World!";
     }
 ]);
 
@@ -96,6 +87,22 @@ app.controller("ContactCtrl", [ "$scope",
                 $scope.invalid = true;
             }
         }
+    }
+]);
+
+app.controller("CalculatorCtrl", [ "$scope", 
+    function($scope) {
+
+        $scope.loggedin = false;
+        $scope.login = {password: ""};
+
+        $scope.checkPassword = function() {
+            if($scope.login.password == 'God3inone!')
+                $scope.loggedin = true;
+            else 
+                $scope.errorMsg = 'Your password is incorrect'
+        }
+
     }
 ]);
 
