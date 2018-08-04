@@ -460,6 +460,13 @@ iframe {
 #contactForm textarea {
   min-height: 150px;
 }
+#captcha iframe {
+  margin-top: 0 !important;
+}
+#captcha > div {
+  display: block;
+  margin: auto;
+}
 address {
   margin-bottom: 0;
 }

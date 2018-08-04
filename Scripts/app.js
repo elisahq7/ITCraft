@@ -2,8 +2,9 @@ var app = angular.module("app", [
 	"ngRoute"
 ]);
 
-app.config(["$routeProvider",
-    function ($routeProvider) {
+
+app.config(["$routeProvider", "$httpProvider",
+    function ($routeProvider, $httpProvider) {
         $routeProvider
             .when("/", {
                  templateUrl: "Views/home.html",
@@ -32,10 +33,10 @@ app.config(["$routeProvider",
              .otherwise({
                 redirectTo: "/"
             });
+        $httpProvider.defaults.useXDomain = true;
+        delete $httpProvider.defaults.headers.common['X-Requested-With'];
     }
 ]);
-
-
 
 app.controller("HomeCtrl", [ "$scope", 
 	function($scope) {
@@ -75,14 +76,57 @@ app.controller("SupportCtrl", [ "$scope",
     }
 ]);
 
-app.controller("ContactCtrl", [ "$scope", 
-    function($scope) {
 
+app.controller("ContactCtrl", [ "$scope", "$http", 
+    function($scope, $http) {
+        $scope.widgetId = null;
+        $scope.Contact = {
+            captchaKey: '6Ld5018UAAAAAKuD9ViJMMc5ufCVprMbJXXev61f'
+        };
+
+        // vcRecaptchaService.reload($scope.widgetId);
         $scope.submitEmail = function(){
+
+            var valid;
+            $scope.captchaResponse = {
+                secret: "6Ld5018UAAAAAAc0D2YhPnIQ175dWMTYy4XZ0ei2",
+                response: angular.element("#g-recaptcha-response").val(),
+                remoteip: ""
+            }
+            // $http.post("https://www.google.com/recaptcha/api/siteverify", $scope.captchaResponse)
+            // .then(function (response) {
+            //     console.log(response);
+                //valid = true;
+           
+                //valid = false;
+                //vcRecaptchaService.reload($scope.widgetId);
+            // });
+            /**
+             * SERVER SIDE VALIDATION
+             *
+             * You need to implement your server side validation here.
+             * Send the reCaptcha response to the server and use some of the server side APIs to validate it
+             * See https://developers.google.com/recaptcha/docs/verify
+             */
+                
             if($scope.contactForm.$valid) {
                 $scope.invalid = false;
-                $.post("https://api.acgtechnologies.com/itcraft/contactus", $scope.Contact);
-                alert("Your email has been sent successfully!")
+                var emailObj = {
+                        to: 'elisaseeds@gmail.com',
+                        from: 'noreply@turncoatdesign.com',
+                        subject: $scope.Contact.Subject,
+                        text: $scope.Contact.Message,
+                        html: 'testing 123'
+                    };
+                $.post('/sendmail', emailObj);
+                console.log('Data posted successfully');
+                $scope.loading = false;
+                $scope.contactForm.$setSubmitted();
+                $scope.serverMessage = 'Email sent successfully';
+             
+
+                // $.post("https://api.acgtechnologies.com/itcraft/contactus", $scope.Contact);
+                // alert("Your email has been sent successfully!")
             } else {
                 $scope.invalid = true;
             }
@@ -105,4 +149,6 @@ app.controller("CalculatorCtrl", [ "$scope",
 
     }
 ]);
+
+
 
